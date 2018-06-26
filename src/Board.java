@@ -1,7 +1,11 @@
 public class Board
 {
-    public static void main(String[] args)
+    private int chessBoard[][];
+    /*
+
+     */
+    public static void getBoard()
     {
-        System.out.println("Hello World!!");
+
     }
 }
