@@ -20,4 +20,10 @@ public class Board
     {
 
     }
+
+    public static Figure addFigure(String a)
+    {
+        Figure add = new Figure(a);
+        return add;
+    }
 }
