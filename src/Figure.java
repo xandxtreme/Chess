@@ -1,20 +1,7 @@
 public class Figure
 {
-    public String type;
-    public String color;
-
-    /*
-    Constructor method
-     */
-    public Figure(String a)
+    void move()
     {
-        type = a;
+        System.out.println("RUSZ DUPE KURWO");
     }
-
-    public static Figure addFigure(String a)
-    {
-        Figure add = new Figure(a);
-        return add;
-    }
-
 }
